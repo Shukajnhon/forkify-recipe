@@ -1,4 +1,4 @@
-import module from '../model.js';
+
 import icons from "url:../../img/icons.svg";
 export default class View {
     _data;
