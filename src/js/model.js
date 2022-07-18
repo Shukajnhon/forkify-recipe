@@ -1,4 +1,4 @@
-import { Fraction } from '../../node_modules/fractional';
+
 import { API_URL, RESULT_PER_PAGE, KEY } from './config.js';
 // import { getJSON, sendJSON } from './helpers.js';
 import { AJAX } from './helpers.js';

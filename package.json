@@ -2,10 +2,10 @@
   "name": "forkify",
   "version": "1.0.0",
   "description": "recipe application",
-  "source": "index.html",
+  "default": "index.html",
   "scripts": {
-    "start": "parcel",
-    "build": "parcel build"
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
   },
   "author": "Peter",
   "license": "ISC",
