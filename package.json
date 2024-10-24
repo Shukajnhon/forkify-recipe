@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "recipe application",
   "default": "index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "targets": {
+    "main": false
+  },
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html --dist-dir ./dist"
@@ -10,13 +14,10 @@
   "author": "Peter",
   "license": "ISC",
   "dependencies": {
-    "core-js": "^3.23.4",
-    "fractional": "^1.0.0",
-    "fracty": "^1.0.11",
-    "parcel": "^2.6.2",
-    "regenerator-runtime": "^0.13.9"
+    "fracty": "^1.0.11"
   },
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.6.2"
+    "@parcel/transformer-sass": "^2.6.2",
+    "parcel": "^2.6.2"
   }
 }
